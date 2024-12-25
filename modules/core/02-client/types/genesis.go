@@ -4,8 +4,9 @@ import (
 	"errors"
 	"sort"
 
-	errorsmod "cosmossdk.io/errors"
 	gogoprotoany "github.com/cosmos/gogoproto/types/any"
+
+	errorsmod "cosmossdk.io/errors"
 
 	host "github.com/cosmos/ibc-go/v9/modules/core/24-host"
 	"github.com/cosmos/ibc-go/v9/modules/core/exported"
